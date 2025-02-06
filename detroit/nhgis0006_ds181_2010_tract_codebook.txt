@@ -1,0 +1,442 @@
+--------------------------------------------------------------------------------
+Codebook for NHGIS data file 'nhgis0006_ds181_2010_tract'
+--------------------------------------------------------------------------------
+ 
+Contents
+    - Data Summary
+    - Data Dictionary
+    - Citation and Use
+ 
+Additional documentation on NHGIS data sources is available at: 
+    https://www.nhgis.org/documentation/tabular-data 
+ 
+--------------------------------------------------------------------------------
+Data Summary
+--------------------------------------------------------------------------------
+ 
+Year:             2010
+Geographic level: Census Tract (by State--County)
+Dataset:          2010 Census: SF 2a - PCT & HCT Tables [Tracts & Larger Areas]
+   NHGIS code:    2010_SF2a
+   NHGIS ID:      ds181
+Breakdown(s):     Geographic Component:
+                     Total area (00)
+                  Race/Ethnicity:
+                     Total Population (1)
+                     White alone (2)
+                     White alone or in combination with one or more other races (3)
+                     Black or African American alone (4)
+                     Black or African American alone or in combination with one or more other races (5)
+                     American Indian and Alaska Native alone (300, A01-Z99) (6)
+                     American Indian and Alaska Native alone or in combination with one or more other races (300, A01-Z99) & (100-299) or (300, A01-Z99) or (400-999) (9)
+                     Asian alone (400-499) (12)
+                     Asian alone or in combination with one or more other races (400-499) & (100-299) or (300, A01-Z99) or (400-999) (31)
+                     Native Hawaiian and Other Pacific Islander alone (500-599) (50)
+                     Native Hawaiian and Other Pacific Islander alone or in combination with one or more other races (500-599) & (100-299) or (300, A01-Z99) or (400-999) (60)
+                     Some Other Race alone (70)
+                     Some Other Race alone or in combination with one or more other races (71)
+                     Two or More Races (100)
+                     Hispanic or Latino (of any race) (200-299) (400)
+                     Not Hispanic or Latino (450)
+ 
+Tables:
+ 
+1. Total Population
+   Universe:    Total population
+   Source code: PCT1
+   NHGIS code:  LGH
+ 
+2. Allocation of Race
+   Universe:    Population not substituted
+   Source code: PCT42
+   NHGIS code:  LHM
+ 
+--------------------------------------------------------------------------------
+Data Dictionary
+--------------------------------------------------------------------------------
+ 
+Context Fields 
+        GISJOIN:     GIS Join Match Code
+        YEAR:        Data File Year
+        STUSAB:      State/U.S. Abbreviation (USPS)
+        REGIONA:     Region Code
+        DIVISIONA:   Division Code
+        STATE:       State Name
+        STATEA:      State Code
+        COUNTY:      County Name
+        COUNTYA:     County Code
+        COUSUBA:     County Subdivision Code
+        COUSUBCC:    FIPS County Subdivision Class Code
+        PLACEA:      Place Code
+        PLACECC:     FIPS Place Class Code
+        TRACTA:      Census Tract Code
+        CONCITA:     Consolidated City Code
+        AIANHHA:     American Indian Area/Alaska Native Area/Hawaiian Home Land Code
+        RES_ONLYA:   American Indian Area/Alaska Native Area (Reservation or Statistical Entity Only) Code
+        TRUSTA:      American Indian Area (Off-Reservation Trust Land Only)/Hawaiian Home Land Code
+        AIANHHCC:    American Indian Area/Alaska Native Area/ Hawaiian Home Land Class Code
+        AITSCEA:     Tribal Subdivision/Remainder Code
+        AITS:        American Indian Tribal Subdivision (FIPS)
+        TTRACTA:     Tribal Census Tract Code
+        ANRCA:       Alaska Native Regional Corporation Code
+        CBSAA:       Metropolitan Statistical Area/Micropolitan Statistical Area Code
+        METDIVA:     Metropolitan Division Code
+        CSAA:        Combined Statistical Area Code
+        NECTAA:      New England City and Town Area Code
+        NECTADIVA:   New England City and Town Area Division Code
+        CNECTAA:     Combined New England City and Town Area Code
+        CBSAPCI:     Metropolitan Statisical Area/Mircopolitan Statistical Area Principal City Indicator
+        NECTAPCI:    New England City and Town Area Principal City Indicator
+        CDA:         Congressional District (111th Congress) Code
+        SLDUA:       State Legislative District (Upper Chamber) Code
+        SLDLA:       State Legislative District (Lower Chamber) Code
+        ZCTA5A:      5-Digit ZIP Code Tabulation Area Code
+        SUBMCDA:     Subminor Civil Division Code
+        SDELMA:      School District (Elementary)/Remainder Code
+        SDSECA:      School District (Secondary)/Remainder Code
+        SDUNIA:      School District (Unified)/Remainder Code
+        AREALAND:    Area (Land)
+        AREAWATR:    Area (Water)
+        NAME:        Area Name-Legal/Statistical Area Description (LSAD) Term-Part Indicator
+        FUNCSTAT:    Functional Status Code
+        INTPTLAT:    Internal Point (Latitude)
+        INTPTLON:    Internal Point (Longitude)
+        LSADC:       Legal/Statistical Area Description Code
+        MEMI:        Metropolitan/Micropolitan Indicator
+        NMEMI:       NECTA Metropolitan/Micropolitan Indicator
+ 
+Breakdown 1:
+    Geographic Component: Total area (00)
+    Race/Ethnicity: Total Population (1)
+ 
+    Table 1:     Total Population
+    Universe:    Total population
+    Source code: PCT1
+    NHGIS code:  LGH
+        LGH001:      Total
+ 
+    Table 2:     Allocation of Race
+    Universe:    Population not substituted
+    Source code: PCT42
+    NHGIS code:  LHM
+        LHM001:      Total
+        LHM002:      Allocated
+        LHM003:      Not allocated
+ 
+Breakdown 2 (AAA):
+    Geographic Component: Total area (00)
+    Race/Ethnicity: White alone (2)
+ 
+    Table 1:     Total Population
+    Universe:    Total population
+    Source code: PCT1
+    NHGIS code:  LGH
+        LGHAAA001:   Total
+ 
+    Table 2:     Allocation of Race
+    Universe:    Population not substituted
+    Source code: PCT42
+    NHGIS code:  LHM
+        LHMAAA001:   Total
+        LHMAAA002:   Allocated
+        LHMAAA003:   Not allocated
+ 
+Breakdown 3 (AAB):
+    Geographic Component: Total area (00)
+    Race/Ethnicity: White alone or in combination with one or more other races (3)
+ 
+    Table 1:     Total Population
+    Universe:    Total population
+    Source code: PCT1
+    NHGIS code:  LGH
+        LGHAAB001:   Total
+ 
+    Table 2:     Allocation of Race
+    Universe:    Population not substituted
+    Source code: PCT42
+    NHGIS code:  LHM
+        LHMAAB001:   Total
+        LHMAAB002:   Allocated
+        LHMAAB003:   Not allocated
+ 
+Breakdown 4 (AAC):
+    Geographic Component: Total area (00)
+    Race/Ethnicity: Black or African American alone (4)
+ 
+    Table 1:     Total Population
+    Universe:    Total population
+    Source code: PCT1
+    NHGIS code:  LGH
+        LGHAAC001:   Total
+ 
+    Table 2:     Allocation of Race
+    Universe:    Population not substituted
+    Source code: PCT42
+    NHGIS code:  LHM
+        LHMAAC001:   Total
+        LHMAAC002:   Allocated
+        LHMAAC003:   Not allocated
+ 
+Breakdown 5 (AAD):
+    Geographic Component: Total area (00)
+    Race/Ethnicity: Black or African American alone or in combination with one or more other races (5)
+ 
+    Table 1:     Total Population
+    Universe:    Total population
+    Source code: PCT1
+    NHGIS code:  LGH
+        LGHAAD001:   Total
+ 
+    Table 2:     Allocation of Race
+    Universe:    Population not substituted
+    Source code: PCT42
+    NHGIS code:  LHM
+        LHMAAD001:   Total
+        LHMAAD002:   Allocated
+        LHMAAD003:   Not allocated
+ 
+Breakdown 6 (AAE):
+    Geographic Component: Total area (00)
+    Race/Ethnicity: American Indian and Alaska Native alone (300, A01-Z99) (6)
+ 
+    Table 1:     Total Population
+    Universe:    Total population
+    Source code: PCT1
+    NHGIS code:  LGH
+        LGHAAE001:   Total
+ 
+    Table 2:     Allocation of Race
+    Universe:    Population not substituted
+    Source code: PCT42
+    NHGIS code:  LHM
+        LHMAAE001:   Total
+        LHMAAE002:   Allocated
+        LHMAAE003:   Not allocated
+ 
+Breakdown 7 (ACF):
+    Geographic Component: Total area (00)
+    Race/Ethnicity: American Indian and Alaska Native alone or in combination with one or more other races (300, A01-Z99) & (100-299) or (300, A01-Z99) or (400-999) (9)
+ 
+    Table 1:     Total Population
+    Universe:    Total population
+    Source code: PCT1
+    NHGIS code:  LGH
+        LGHACF001:   Total
+ 
+    Table 2:     Allocation of Race
+    Universe:    Population not substituted
+    Source code: PCT42
+    NHGIS code:  LHM
+        LHMACF001:   Total
+        LHMACF002:   Allocated
+        LHMACF003:   Not allocated
+ 
+Breakdown 8 (AEQ):
+    Geographic Component: Total area (00)
+    Race/Ethnicity: Asian alone (400-499) (12)
+ 
+    Table 1:     Total Population
+    Universe:    Total population
+    Source code: PCT1
+    NHGIS code:  LGH
+        LGHAEQ001:   Total
+ 
+    Table 2:     Allocation of Race
+    Universe:    Population not substituted
+    Source code: PCT42
+    NHGIS code:  LHM
+        LHMAEQ001:   Total
+        LHMAEQ002:   Allocated
+        LHMAEQ003:   Not allocated
+ 
+Breakdown 9 (AFO):
+    Geographic Component: Total area (00)
+    Race/Ethnicity: Asian alone or in combination with one or more other races (400-499) & (100-299) or (300, A01-Z99) or (400-999) (31)
+ 
+    Table 1:     Total Population
+    Universe:    Total population
+    Source code: PCT1
+    NHGIS code:  LGH
+        LGHAFO001:   Total
+ 
+    Table 2:     Allocation of Race
+    Universe:    Population not substituted
+    Source code: PCT42
+    NHGIS code:  LHM
+        LHMAFO001:   Total
+        LHMAFO002:   Allocated
+        LHMAFO003:   Not allocated
+ 
+Breakdown 10 (AGN):
+    Geographic Component: Total area (00)
+    Race/Ethnicity: Native Hawaiian and Other Pacific Islander alone (500-599) (50)
+ 
+    Table 1:     Total Population
+    Universe:    Total population
+    Source code: PCT1
+    NHGIS code:  LGH
+        LGHAGN001:   Total
+ 
+    Table 2:     Allocation of Race
+    Universe:    Population not substituted
+    Source code: PCT42
+    NHGIS code:  LHM
+        LHMAGN001:   Total
+        LHMAGN002:   Allocated
+        LHMAGN003:   Not allocated
+ 
+Breakdown 11 (AHJ):
+    Geographic Component: Total area (00)
+    Race/Ethnicity: Native Hawaiian and Other Pacific Islander alone or in combination with one or more other races (500-599) & (100-299) or (300, A01-Z99) or (400-999) (60)
+ 
+    Table 1:     Total Population
+    Universe:    Total population
+    Source code: PCT1
+    NHGIS code:  LGH
+        LGHAHJ001:   Total
+ 
+    Table 2:     Allocation of Race
+    Universe:    Population not substituted
+    Source code: PCT42
+    NHGIS code:  LHM
+        LHMAHJ001:   Total
+        LHMAHJ002:   Allocated
+        LHMAHJ003:   Not allocated
+ 
+Breakdown 12 (AIG):
+    Geographic Component: Total area (00)
+    Race/Ethnicity: Some Other Race alone (70)
+ 
+    Table 1:     Total Population
+    Universe:    Total population
+    Source code: PCT1
+    NHGIS code:  LGH
+        LGHAIG001:   Total
+ 
+    Table 2:     Allocation of Race
+    Universe:    Population not substituted
+    Source code: PCT42
+    NHGIS code:  LHM
+        LHMAIG001:   Total
+        LHMAIG002:   Allocated
+        LHMAIG003:   Not allocated
+ 
+Breakdown 13 (AIH):
+    Geographic Component: Total area (00)
+    Race/Ethnicity: Some Other Race alone or in combination with one or more other races (71)
+ 
+    Table 1:     Total Population
+    Universe:    Total population
+    Source code: PCT1
+    NHGIS code:  LGH
+        LGHAIH001:   Total
+ 
+    Table 2:     Allocation of Race
+    Universe:    Population not substituted
+    Source code: PCT42
+    NHGIS code:  LHM
+        LHMAIH001:   Total
+        LHMAIH002:   Allocated
+        LHMAIH003:   Not allocated
+ 
+Breakdown 14 (AII):
+    Geographic Component: Total area (00)
+    Race/Ethnicity: Two or More Races (100)
+ 
+    Table 1:     Total Population
+    Universe:    Total population
+    Source code: PCT1
+    NHGIS code:  LGH
+        LGHAII001:   Total
+ 
+    Table 2:     Allocation of Race
+    Universe:    Population not substituted
+    Source code: PCT42
+    NHGIS code:  LHM
+        LHMAII001:   Total
+        LHMAII002:   Allocated
+        LHMAII003:   Not allocated
+ 
+Breakdown 15 (AKS):
+    Geographic Component: Total area (00)
+    Race/Ethnicity: Hispanic or Latino (of any race) (200-299) (400)
+ 
+    Table 1:     Total Population
+    Universe:    Total population
+    Source code: PCT1
+    NHGIS code:  LGH
+        LGHAKS001:   Total
+ 
+    Table 2:     Allocation of Race
+    Universe:    Population not substituted
+    Source code: PCT42
+    NHGIS code:  LHM
+        LHMAKS001:   Total
+        LHMAKS002:   Allocated
+        LHMAKS003:   Not allocated
+ 
+Breakdown 16 (ALQ):
+    Geographic Component: Total area (00)
+    Race/Ethnicity: Not Hispanic or Latino (450)
+ 
+    Table 1:     Total Population
+    Universe:    Total population
+    Source code: PCT1
+    NHGIS code:  LGH
+        LGHALQ001:   Total
+ 
+    Table 2:     Allocation of Race
+    Universe:    Population not substituted
+    Source code: PCT42
+    NHGIS code:  LHM
+        LHMALQ001:   Total
+        LHMALQ002:   Allocated
+        LHMALQ003:   Not allocated
+ 
+--------------------------------------------------------------------------------
+Citation and Use of NHGIS Data
+--------------------------------------------------------------------------------
+ 
+All persons are granted a limited license to use this documentation and the
+accompanying data, subject to the following conditions:
+
+* REDISTRIBUTION: You will not redistribute the data without permission.
+
+  You may publish a subset of the data to meet journal requirements for accessing 
+  data related to a particular publication. Contact us for permission for any other 
+  redistribution; we will consider requests for free and commercial redistribution.
+
+* CITATION: You will cite NHGIS appropriately.
+
+    * Publications and research reports employing NHGIS data (either tabular or GIS) 
+      should include the following citation:
+
+        Steven Manson, Jonathan Schroeder, David Van Riper, Katherine Knowles, Tracy Kugler, Finn Roberts, and Steven Ruggles.
+        IPUMS National Historical Geographic Information System: Version 19.0 
+        [dataset]. Minneapolis, MN: IPUMS. 2024. 
+        http://doi.org/10.18128/D050.V19.0
+
+    * For policy briefs, online resources, or articles in the popular press, we 
+      recommend that you cite the use of NHGIS data as follows:
+
+        IPUMS NHGIS, University of Minnesota, www.nhgis.org.
+
+These terms of use are a legally binding agreement. You can use the data only in 
+accordance with these terms, and any other use is a violation of the agreement. 
+Violations may result in revocation of the agreement and prohibition from using other 
+IPUMS data. If IPUMS or our partners are harmed from your violation, you are 
+responsible for all damages, including reasonable attorney's fees and expenses.
+        
+In addition, we request that users send us a copy of any publications, research
+reports, or educational material making use of the data or documentation.
+
+Send electronic material to: nhgis@umn.edu
+
+Printed matter should be sent to:
+
+    IPUMS NHGIS
+    Institute for Social Research and Data Innovation
+    University of Minnesota
+    50 Willey Hall
+    225 19th Ave S
+    Minneapolis, MN 55455
